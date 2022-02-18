@@ -1,5 +1,5 @@
 {
-    "name": "ggergo/sqlindexhintbundle",
+    "name": "clonealliance/sqlindexhintbundle",
     "description": "Doctrine SqlWalker extension to apply USE INDEX and FORCE INDEX hints using DQL on top of MySql. Works with both createQuery and createQueryBuilder.",
     "keywords": ["force", "use", "index", "forceindex", "useindex", "doctrine", "dql", "mysql", "createQueryBuilder", "QueryBuilder", "createQuery"],
     "license": "MIT",
@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": "^5.6 || ~7.1 || ^8.0",
+        "php": ">=5.6 || ~7.1 || ^8.0",
         "doctrine/orm": "^2.5"
     },
     "require-dev": {
