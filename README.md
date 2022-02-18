@@ -25,5 +25,9 @@ $query->setHint(SqlIndexWalker::HINT_INDEX, [
 Require with Composer, i.e.:
 
 ```bash
-composer require ggergo/sqlindexhintbundle
+composer config repositories.sqlindex vcs https://github.com/clonealliance/SqlIndexHintBundle.git
+```
+
+```bash
+composer require clonealliance/sqlindexhintbundle
 ```
